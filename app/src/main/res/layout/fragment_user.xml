@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#72929292">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                      android:layout_weight="1.5"
+                      android:background="#423461"
+                      android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:textSize="20sp"
+                      android:layout_marginTop="20dp"
+                      android:textColor="#FFFFFF"
+                      android:text="个人中心"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:orientation="vertical"
+                      android:layout_weight="14">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="0.5">
+
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:background="@drawable/me"
+                              android:layout_marginLeft="5dp"
+                              android:layout_marginRight="5dp"
+                              android:layout_marginTop="10dp"
+                              android:layout_marginBottom="10dp">
+                    <LinearLayout android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:layout_weight="1"
+                                  android:gravity="center">
+                        <ImageView android:layout_width="60dp"
+                                   android:layout_height="60dp"
+
+                                   android:background="@drawable/touxiang">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:layout_weight="2"
+                                  android:gravity="center">
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:text="Administractor"
+                        android:textSize="16sp">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:layout_weight="1"
+                                  android:gravity="center">
+                        <ImageView android:layout_width="30dp"
+                                   android:layout_height="30dp"
+                                   android:background="@drawable/erweima">
+
+                        </ImageView>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="1"
+                          android:background="@drawable/me"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginRight="5dp">
+
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="4"
+                          android:layout_marginTop="10dp"
+                          android:background="@drawable/me"
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginRight="5dp">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

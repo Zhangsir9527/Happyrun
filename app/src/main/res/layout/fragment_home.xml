@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@drawable/bg"
+                                             android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+    >
+        <!--        上半部分-->
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:orientation="vertical"
+                      android:layout_weight="2.5">
+            <!--            登录-->
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="1"
+                          android:background="#5BF0F0F0"
+                          android:orientation="horizontal">
+                <ImageView android:layout_width="30dp"
+                           android:layout_height="30dp"
+                           android:layout_gravity="bottom"
+                           android:layout_marginLeft="10dp"
+                           android:background="@mipmap/user">
+
+                </ImageView>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="5dp"
+                          android:textSize="16sp"
+                          android:layout_gravity="bottom"
+                          android:textColor="#111111"
+                          android:text="未登录">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+            <!--                总公里-->
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="3"
+                          android:orientation="vertical">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="100sp"
+                          android:text="0"
+                          android:layout_gravity="center"
+                          android:textColor="#111111">
+
+                </TextView>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="总公里数"
+                          android:layout_gravity="center"
+                          android:textColor="#111111">
+
+                </TextView>
+
+
+            </LinearLayout>
+            <!--            总次数+总时长-->
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="0dp"
+                          android:orientation="horizontal"
+                          android:layout_weight="1">
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_weight="1"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical">
+
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="0dp"
+                                  android:layout_weight="1">
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:text="0"
+                                  android:gravity="center"
+                                  android:textColor="#111111"
+                                  android:layout_gravity="center"
+                                  android:textSize="25sp"></TextView>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="0dp"
+                                  android:layout_weight="1">
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:text="总次数"
+                                  android:gravity="center"
+                                  android:textColor="#111111"
+                                  android:layout_gravity="center"
+                                  android:textSize="12sp"></TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_weight="1"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical">
+
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="0dp"
+                                  android:layout_weight="1">
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:text="00:00:00"
+                                  android:gravity="center"
+                                  android:textColor="#111111"
+                                  android:layout_gravity="center"
+                                  android:textSize="25sp"></TextView>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="0dp"
+                                  android:layout_weight="1">
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:text="总时长"
+                                  android:gravity="center"
+                                  android:textColor="#111111"
+                                  android:layout_gravity="center"
+                                  android:textSize="12sp"></TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--        下半部分-->
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="2"
+                      android:orientation="vertical"
+                      android:background="@drawable/backg"
+        >
+
+
+
+
+
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="2">
+
+
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_weight="1.2"
+                              android:layout_height="match_parent">
+
+                    <ImageView android:layout_width="60dp"
+                               android:layout_height="60dp"
+                               android:layout_gravity="center"
+                               android:layout_marginLeft="20dp"
+                    android:background="@drawable/messege">
+
+                    </ImageView>
+
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_weight="3.5"
+                              android:orientation="vertical"
+                              android:layout_height="match_parent">
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="20dp"
+                              android:layout_marginTop="35dp"
+                              android:textSize="16sp"
+                              android:textColor="#111111"
+                              android:text="1:请保持40分钟以上的运动时间。">
+                    </TextView>
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="20dp"
+                              android:layout_marginTop="2dp"
+                              android:textSize="16sp"
+                              android:textColor="#111111"
+                              android:text="2:不要跑太快，速度保持在3m/s。">
+                    </TextView>
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="20dp"
+                              android:layout_marginTop="2dp"
+                              android:textSize="16sp"
+                              android:textColor="#111111"
+                              android:text="3:请保持40分钟以上的运动时间。">
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                          android:layout_weight="1">
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_weight="1"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="40dp"
+                               android:layout_height="40dp"
+                               android:layout_marginLeft="20dp"
+                               android:layout_gravity="center"
+                               android:background="@drawable/sports">
+
+                    </ImageView>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_weight="1"
+                              android:layout_height="wrap_content"
+                              android:layout_gravity="center"
+                              android:textColor="#DA8C28"
+                              android:layout_marginLeft="10dp"
+                              android:text="运动小技巧">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_weight="1"
+                              android:layout_height="match_parent">
+                    <ImageView android:layout_width="40dp"
+                               android:layout_height="40dp"
+                               android:layout_marginLeft="20dp"
+                               android:layout_gravity="center"
+                               android:background="@drawable/book">
+
+                    </ImageView>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:layout_gravity="center"
+                              android:textColor="#DA8C28"
+                              android:layout_marginLeft="10dp"
+                              android:text="MAF180减肥法">
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                          android:layout_weight="1">
+                <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttonstyle"
+                        android:text="开始跑步">
+
+                </Button>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
